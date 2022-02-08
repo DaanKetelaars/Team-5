@@ -1,0 +1,22 @@
+[
+  {
+    "memberId": 0,
+    "squadId": 0,
+    "type": "string",
+    "nickname": "string",
+    "name": "Daan",
+    "prefix": "string",
+    "surname": "string",
+    "avatar": "string",
+    "githubHandle": "string",
+    "bio": "string",
+    "url": "string",
+    "teams": {
+      "teamId": 5,
+      "name": "Team 5",
+      "description": "string",
+      "avatar": "string",
+      "url": "string"
+    }
+  }
+]
