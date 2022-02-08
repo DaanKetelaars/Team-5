@@ -25,6 +25,7 @@ main section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: #10100e;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3)
 }
 
 section {
