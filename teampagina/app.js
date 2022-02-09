@@ -17,7 +17,7 @@ fetch(CONFIG.api)
         });
 
         function makeUL(firstNames) {
-            const list = document.createElement('section');
+            const list = document.createElement('article');
 
             for (let i = 0; i < firstNames.length; i++) {
                 const item = document.createElement('a');

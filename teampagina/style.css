@@ -10,47 +10,43 @@ body {
   background-position: center center;
   background-repeat: repeat;
   font-family: 'Reenie Beanie', cursive;
-}
-
-main {
-  width: 100%;
-  height: 100vh;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  height: 100vh;
 }
 
 #whiteboard {
-  background: #FFF;
-  width: 1000px;
-  height: 750px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  box-shadow: inset 4px 4px 8px 1px rgb(0, 0, 0, 0.7);
-  filter: drop-shadow(8px 8px 12px rgb(0, 0, 0, 0.7));
   background: #E8CCAC;
   border-width: 40px;
   border-style: solid;
   border-color: #695149 #8F6152 #695149 #8F6152;
   box-shadow: inset 4px 4px 8px 1px rgb(0, 0, 0, 0.7);
+  width: 65vw;
+  filter: drop-shadow(8px 8px 12px rgb(0, 0, 0, 0.7));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: auto;
+  padding: 8vh 10vw;
+  margin: 2%;
 }
 
 
-section {
+article {
   width: 100%;
   height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
 }
 
-section a {
-  font-size: 2.5rem;
+article a {
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,25 +57,25 @@ section a {
   transition: all 0.3s ease-in-out;
 }
 
-section a:hover {
-  transform: scale(1.1);
-  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.2));
+article a:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(8px 8px 12px rgb(0, 0, 0, 0.3));
 }
 
 
 
-section a:nth-of-type(1) {
+article a:nth-of-type(1) {
   background-image: url('./assets/daan/Group\ 13.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   position: relative;
   list-style: none;
 }
 
-section a:nth-of-type(1)::before {
+article a:nth-of-type(1)::before {
   content: '';
   position: absolute;
   background-image: url('./assets/daan/Group\ 7.svg');
@@ -94,18 +90,18 @@ section a:nth-of-type(1)::before {
 
 
 
-section a:nth-of-type(2) {
+article a:nth-of-type(2) {
   background-image: url('./assets/tristan/Group\ 11.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   position: relative;
   list-style: none;
 }
 
-section a:nth-of-type(2)::before {
+article a:nth-of-type(2)::before {
   content: '';
   position: absolute;
   background-image: url('./assets/tristan/Group\ 6.svg');
@@ -121,18 +117,18 @@ section a:nth-of-type(2)::before {
 
 
 
-section a:nth-of-type(3) {
+article a:nth-of-type(3) {
   background-image: url('./assets/pepijn/Group\ 12.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   position: relative;
   list-style: none;
 }
 
-section a:nth-of-type(3)::before {
+article a:nth-of-type(3)::before {
   content: '';
   position: absolute;
   background-image: url('./assets/pepijn/Group\ 4.svg');
@@ -141,24 +137,24 @@ section a:nth-of-type(3)::before {
   background-position: center;
   width: 50px;
   height: 50px;
-  top: -1rem;
-  right: 2.3rem;
+  top: -.7rem;
+  right: 3.2rem;
 }
 
 
 
-section a:nth-of-type(4) {
+article a:nth-of-type(4) {
   background-image: url('./assets/julian/Vector\ 5.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   position: relative;
   list-style: none;
 }
 
-section a:nth-of-type(4)::before {
+article a:nth-of-type(4)::before {
   content: '';
   position: absolute;
   background-image: url('./assets/julian/Group\ 3.svg');
@@ -171,18 +167,18 @@ section a:nth-of-type(4)::before {
 }
 
 
-section a:nth-of-type(5) {
+article a:nth-of-type(5) {
   background-image: url('./assets/nora/Group\ 8.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   position: relative;
   list-style: none;
 }
 
-section a:nth-of-type(5)::before {
+article a:nth-of-type(5)::before {
   content: '';
   position: absolute;
   background-image: url('./assets/nora/Group\ 5.svg');
@@ -191,6 +187,6 @@ section a:nth-of-type(5)::before {
   background-position: center;
   width: 50px;
   height: 50px;
-  top: -1.3rem;
-  right: 2.4rem;
+  top: -1rem;
+  right: 3.4rem;
 }
