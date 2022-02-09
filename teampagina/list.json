@@ -1,0 +1,102 @@
+[
+  {
+    "memberId": 0,
+    "squadId": 0,
+    "type": "string",
+    "nickname": "string",
+    "name": "Daan",
+    "prefix": "string",
+    "surname": "Ketelaars",
+    "avatar": "string",
+    "githubHandle": "string",
+    "bio": "string",
+    "url": "string",
+    "teams": {
+      "teamId": 5,
+      "name": "Team 5",
+      "description": "string",
+      "avatar": "string",
+      "url": "string"
+    }
+  },
+  {
+    "memberId": 0,
+    "squadId": 0,
+    "type": "string",
+    "nickname": "string",
+    "name": "Tristan",
+    "prefix": "string",
+    "surname": "Varewijck",
+    "avatar": "string",
+    "githubHandle": "string",
+    "bio": "string",
+    "url": "string",
+    "teams": {
+      "teamId": 5,
+      "name": "Team 5",
+      "description": "string",
+      "avatar": "string",
+      "url": "string"
+    }
+  },
+  {
+    "memberId": 0,
+    "squadId": 0,
+    "type": "string",
+    "nickname": "string",
+    "name": "Pepijn",
+    "prefix": "string",
+    "surname": "Jong",
+    "avatar": "string",
+    "githubHandle": "string",
+    "bio": "string",
+    "url": "string",
+    "teams": {
+      "teamId": 5,
+      "name": "Team 5",
+      "description": "string",
+      "avatar": "string",
+      "url": "string"
+    }
+  },
+  {
+    "memberId": 0,
+    "squadId": 0,
+    "type": "string",
+    "nickname": "string",
+    "name": "Julian",
+    "prefix": "string",
+    "surname": "de Cloe",
+    "avatar": "string",
+    "githubHandle": "string",
+    "bio": "string",
+    "url": "string",
+    "teams": {
+      "teamId": 5,
+      "name": "Team 5",
+      "description": "string",
+      "avatar": "string",
+      "url": "string"
+    }
+  },
+  {
+    "memberId": 0,
+    "squadId": 0,
+    "type": "string",
+    "nickname": "string",
+    "name": "Nora",
+    "prefix": "string",
+    "surname": "Kramer",
+    "avatar": "string",
+    "githubHandle": "string",
+    "bio": "string",
+    "url": "string",
+    "teams": {
+      "teamId": 5,
+      "name": "Team 5",
+      "description": "string",
+      "avatar": "string",
+      "url": "string"
+    }
+  }
+]
