@@ -36,7 +36,7 @@ fetch(CONFIG.api)
         anchorDaan.setAttribute("href", "https://daanketelaars.github.io/WAFS-Visitekaartje/visitekaartje/");
 
         const anchorTristan = document.querySelector('a:nth-child(2)');
-        anchorTristan.setAttribute("href", "https://github.com/TristanVarewijck/css-to-the-resque/visitekaartje");
+        anchorTristan.setAttribute("href", "https://tristanvarewijck.github.io/css-to-the-resque/visitekaartje/");
 
         const anchorPepijn = document.querySelector('a:nth-child(3)');
         anchorPepijn.setAttribute("href", "https://ppijn.github.io/web-app-from-scratch-2122/visitekaartje/index.html");
