@@ -33,19 +33,19 @@ fetch(CONFIG.api)
 
 
         const anchorDaan = document.querySelector('a:nth-child(1)');
-        anchorDaan.setAttribute("href", "somelink url");
+        anchorDaan.setAttribute("href", "https://daanketelaars.github.io/WAFS-Visitekaartje/visitekaartje/");
 
         const anchorTristan = document.querySelector('a:nth-child(2)');
-        anchorTristan.setAttribute("href", "somelink url");
+        anchorTristan.setAttribute("href", "https://github.com/TristanVarewijck/css-to-the-resque/visitekaartje");
 
         const anchorPepijn = document.querySelector('a:nth-child(3)');
-        anchorPepijn.setAttribute("href", "somelink url");
+        anchorPepijn.setAttribute("href", "https://github.com/ppijn/web-app-from-scratch-2122/tree/main/visitekaartje");
 
         const anchorJulian = document.querySelector('a:nth-child(4)');
-        anchorJulian.setAttribute("href", "somelink url");
+        anchorJulian.setAttribute("href", "https://juliandecloe.github.io/WAFS-visitekaartje/");
 
         const anchorNora = document.querySelector('a:nth-child(5)');
-        anchorNora.setAttribute("href", "somelink url");
+        anchorNora.setAttribute("href", "https://norakramer1.github.io/WAfS-visitekaartje/");
 
         // !!!!!! don't delete this code: necessary if tribe api works again
 
