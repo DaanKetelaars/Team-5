@@ -1,0 +1,266 @@
+body {
+	display: flex;
+	background: url(img/darkmarmer.jpg);
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+}
+
+.bg1 {
+	position: absolute;
+	background: url(img/julian.jpg);
+	background-size: 106%;
+	background-position: 0 -90px;
+	filter: grayscale(100%);
+	width: 454px;
+	height: 265px;
+	clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+	z-index: 1;
+	cursor: url(img/dot.png), auto;
+}
+
+.bg2 {
+	position: absolute;
+	background: url(img/julian2.jpg);
+	background-size: cover;
+	background-position: 0 -90px;
+	filter: grayscale(100%);
+	width: 454px;
+	height: 265px;
+	clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+	z-index: 2;
+	cursor: url(img/dot.png), auto;
+}
+
+.hide {
+	display: none;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 454px;
+	height: 265px;
+	cursor: url(img/dot.png), auto;
+	box-shadow: 8px 8px 14px 5px rgb(0,0,0,0.7);
+}
+
+article:hover {
+	z-index: 2;
+}
+
+h2 {
+	position: relative;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 400;
+	color: #333333;
+	cursor: url(img/dot.png), auto;
+}
+
+article:first-of-type {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 132.5px 227px 0 0;
+	border-color: #D0D3D1 transparent transparent transparent;
+}
+
+article:first-of-type span {
+	position: absolute;
+  	top: -130px;
+  	width: 100px;
+  	left: 20px;
+  	display: block;
+}
+
+article:first-of-type:hover {
+	animation: hobbys 0.5s forwards;
+}
+
+article:first-of-type:hover p {
+	display: block;
+	margin-top: -90px;
+	margin-left: 20px;
+	width: 200px;
+}
+
+@keyframes hobbys {
+	0% {
+		border-color: #D0D3D1 transparent transparent transparent;
+	}
+	100% {
+		border-color: #D0D3D1;
+	}
+}
+
+article:nth-of-type(2) {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 227px 132.5px 0;
+	border-color: transparent #D0D3D1 transparent transparent;
+}
+
+article:nth-of-type(2) span {
+	position: absolute;
+  	top: 5px;
+  	width: 100px;
+  	left: 120px;
+  	display: block;
+}
+
+article:nth-of-type(2):hover ul {
+	display: block;
+	margin-top: 65px;
+	margin-left: -35px;
+	width: 200px;
+	text-align: right;
+}
+
+article:nth-of-type(2):hover {
+	animation: contact 0.5s forwards;
+}
+
+@keyframes contact {
+	0% {
+		border-color: transparent #D0D3D1 transparent transparent;
+	}
+	100% {
+		border-color: #D0D3D1;
+	}
+}
+
+article:nth-of-type(3) {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 227px 132.5px 0;
+	border-color: transparent transparent #D0D3D1 transparent;
+}
+
+article:nth-of-type(3) span {
+	position: absolute;
+  	top: 60px;
+  	width: 100px;
+  	left: 20px;
+  	display: block;
+}
+
+article:nth-of-type(3) a {
+	width: 50px;
+}
+
+article:nth-of-type(3):hover p {
+	display: block;
+	margin-top: 60px;
+	margin-left: 20px;
+	width: 200px;
+}
+
+article:nth-of-type(3):hover h2 {
+	transform: translateY(-60px);
+	transition: 0.1s;
+}
+
+article:nth-of-type(3):hover {
+	animation: funfact 0.5s forwards;
+}
+
+@keyframes funfact {
+	0% {
+		border-color: transparent transparent #D0D3D1 transparent;
+	}
+	100% {
+		border-color: #D0D3D1;
+	}
+}
+
+article:nth-of-type(4) {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 132.5px 227px;
+	border-color: transparent transparent #D0D3D1 transparent;
+}
+
+article:nth-of-type(4) span {
+	position: absolute;
+  	top: 60px;
+  	width: 100px;
+  	left: -80px;
+  	display: block;
+}
+
+article:nth-of-type(4):hover ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	margin-left: -206px;
+	width: 150px;
+	text-align: right;
+}
+
+article:nth-of-type(4) ul img {
+	width: 50px;
+}
+
+article:nth-of-type(4) ul li:nth-of-type(2) img, article:nth-of-type(4) ul li:nth-of-type(3) img {
+	width: 35px;
+	margin-right: 6px;
+}
+
+article:nth-of-type(4):hover h2 {
+	transform: translateY(-60px);
+	transition: 0.1s;
+}
+
+article:nth-of-type(4):hover {
+	animation: skills 0.2s forwards;
+}
+
+@keyframes skills {
+	0% {
+		border-color: transparent transparent #D0D3D1 transparent;
+	}
+	100% {
+		border-color: #D0D3D1;
+	}
+}
+
+h1 {
+	position: absolute;
+	color: #D0D3D1;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	letter-spacing: 2px;
+	top: 54%;
+	left: 46.5%;
+	z-index: 2;
+	cursor: url(img/dot.png), auto;
+}
+
+p, ul {
+	display: none;
+	list-style-type: none;
+	color: #333333;
+	cursor: url(img/dot.png), auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	color: #333333;
+	font-weight: 700;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
